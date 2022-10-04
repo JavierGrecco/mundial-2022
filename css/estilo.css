@@ -77,7 +77,7 @@ body {
 }
 
 .navbar-brand img {
-    
+
     width: 5em;
 }
 
@@ -199,4 +199,5 @@ body {
     padding: 1em;
     margin: 0;
     text-align: center;
+    width: 100uh;
 }
