@@ -1,0 +1,202 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Font size de las fuentes */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Utilidades */
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+.bg-header {
+    background-image: url('../imagenes/bg_messi/peakpx2.jpg');  
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+}
+
+@media (min-width: 480px) {
+    .bg-header {
+        height: 500px;
+    }
+}
+
+@media (min-width: 640px) {
+    .bg-header {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .bg-header {
+        height: 800px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .bg-header {
+        height: 1200px;
+    }
+}
+
+.bg-navbar {
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 1.5em 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1em;
+
+    height: 50vh;
+}
+
+.navbar-brand img {
+    
+    width: 5em;
+}
+
+
+.navbar-nav {
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.3em;
+}
+
+@media (min-width: 1600px) {
+    .nav-link{
+        font-size: 1.5rem;
+        padding: 0.45em;
+    }
+    .navbar-brand{
+    font-size: 3rem;
+    margin-bottom: 1.5em;
+    }
+}
+
+/* Utilizamos hover para dar el efecto con el mouse o al seleccionar en pantalla tactil */
+.nav-link:hover {
+    background-color: white;
+    color: black;
+    border-radius: 0.5em;
+}
+
+/* MAIN */
+.main {
+    background-color: white;
+    margin-top: -2rem;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+
+/*Si queremos pasar el texto a mayusc text-transform: uppercase; */
+.main-title {
+    text-align: center;    
+}
+
+/* CARD */
+.card-img {
+    width: 100%;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 480px) {
+    .arqueros {
+        display: flex;
+        gap: 1em;
+    }
+}
+
+@media (min-width: 480px) {
+    .defenza {
+        display: flex;
+        gap: 1em;
+    }
+}
+
+@media (min-width: 480px) {
+    .centro {
+        display: flex;
+        gap: 1em;
+    }
+}
+
+@media (min-width: 480px) {
+    .arriba {
+        display: flex;
+        gap: 1em;
+    }
+}
+
+/* NOSOTROS 
+   Utilizamos el display flex para poder asignar pesos para el orden */
+.escudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+.escudo-col-img {
+    background-image: url('../imagenes/card/escudo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .escudo-col-img {
+        height: 1700px;
+        border-radius: 0.5em;
+    }
+}
+
+/* FOOTER */
+.bg-footer {
+    background-color: #262626;
+    color: #ACBBCE;
+}
+
+.bg-footer p {
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+}

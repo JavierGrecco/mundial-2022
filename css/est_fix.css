@@ -1,0 +1,65 @@
+.bg-header-fix {
+    background-image: url('../imagenes/bg_messi/peakpx.jpg');  
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+}
+
+@media (min-width: 480px) {
+    .bg-header-fix {
+        height: 500px;
+    }
+}
+
+@media (min-width: 640px) {
+    .bg-header-fix {
+        height: 700px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .bg-header-fix {
+        height: 1200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .bg-header-fix {
+        height: 1500px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .bg-header-fix {
+        height: 1800px;
+    }
+}
+
+.escudo-img-fix {
+    background-image: url('../imagenes/card/mascota.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .escudo-img-fix {
+        height: 1700px;
+        border-radius: 0.5em;
+    }
+}
+
+/* CARD */
+.card {
+    background-color: #A6464E;
+    color: white;
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.card-body {
+    padding: 1em;
+}
